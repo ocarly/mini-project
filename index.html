@@ -9,11 +9,14 @@
     <body>
 
         <nav class="navbar">
-            <img src="./assets/offwego.png" width="200px" height="200px" id=logo alt="Logo image" style="margin-left: 10px;" />
+            <div class="space">
+                <img src="./assets/offwego.png" id=logo alt="Logo image" class="logo-image" />
+            </div>
+           
              <a href="javascript:alert('Home was clicked')">Home</a> |
              <a href="javascript:alert('Gallery was clicked')">Gallery</a> |
              <a href="javascript:alert('Contact Us was clicked')">Contact Us</a> |
-             <li><a href="https://github.com/ocarly">About Us</a>
+             <li></li><a href="https://github.com/ocarly">About Us</a>
         </nav>
 
     <section class="hero">
@@ -23,10 +26,14 @@
                         Ground Control to Carly C.
                     </h1>
                 </div>
-                    <button type="button" class="hero-button" onclick=`window.location.href="https://youtu.be/E45fogGN_Y8?si=xBtnB0qifJ-RBWy1';">
+                    <button type="button" class="hero-button" onclick="gotovideo()">
                     do it. click me. &raquo;
                 </button>
             </div>
-            <footer></footer>
+            <script>
+                function gotovideo(){
+                    window.location.href="https://youtu.be/E45fogGN_Y8?si=xBtnB0qifJ-RBWy1";
+                }
+            </script>
         </body>
     </html>
