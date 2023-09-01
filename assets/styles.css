@@ -47,7 +47,7 @@ body {
     filter: brightness(60%);
 }
 
-a { font-size: 3rem;}
+a{ font-size: 1.3rem;}
 
 .hero {
     position: relative;
@@ -73,11 +73,6 @@ a { font-size: 3rem;}
     margin-bottom: 0;
 }
 
-/*.hero-subtitle {
-    font-size: 2rem;
-    font-weight: 200;
-    margin-top: 1rem;
-*/
 
 .hero-button {
     background: transparent;
