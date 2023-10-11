@@ -1,42 +1,57 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <link rel="stylesheet" type="text/css" href="./assets/styles.css">
-        <title>Carly C | Portfolio</title>
-    </head>
-    <body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" type="text/css" href="./assets/styles.css" />
+    <title>Carly C | Portfolio</title>
+  </head>
+  <body>
+    <nav class="navbar">
+      <div class="space">
+        <img
+          src="./assets/offwego.png"
+          id="logo"
+          alt="Logo image"
+          class="logo-image"
+        />
+      </div>
 
-        <nav class="navbar">
-            <div class="space">
-                <img src="./assets/offwego.png" id=logo alt="Logo image" class="logo-image" />
-            </div>
-           
-             <a href="javascript:alert('Home was clicked')">Home</a> |
-             <a href="javascript:alert('Gallery was clicked')">Gallery</a> |
-             <a href="javascript:alert('Contact Us was clicked')">Contact Us</a> |
-             <li></li><a href="https://github.com/ocarly">About Us</a>
-        </nav>
+      <a href="javascript:alert('Home was clicked')">Home</a> |
+      <a href="javascript:alert('Gallery was clicked')">Gallery</a> |
+      <a href="javascript:alert('Contact Us was clicked')">Contact Us</a> |
+      <li></li>
+      <a href="https://github.com/ocarly">About Us</a>
+    </nav>
 
     <section class="hero">
-            <div class="hero-content">
-                <div class="typewriter">
-                    <h1 class="hero-title">
-                        Ground Control to Carly C.
-                    </h1>
-                </div>
-                    <button type="button" class="hero-button" onclick="gotovideo()">
-                    do it. click me. &raquo;
-                </button>
+      <div class="hero-content">
+        <div class="typewriter">
+          <h1 class="hero-title">Ground Control to Carly C.</h1>
+        </div>
+        <section class="google">
+            <div class="google-img">
+              <a href="https://kristin611.github.io/GrocerEZ/">
+                <img
+                  src="./assets/grocerEZ.png"
+                  alt="image of GrocerEZ application"
+              /></a>
+              <figcaption class="google-cap">GrocerEZ Application</figcaption>
             </div>
-            <script>
-    function gotovideo(){
-        window.location.href="https://youtu.be/E45fogGN_Y8?si=xBtnB0qifJ-RBWy1";
-    }
-</script>
-        </body>
-        <footer>
-            Contact Info: CCarlyCo3@outlook.com
-        </footer>
-    </html>
+          </section>
+        <button type="button" class="hero-button" onclick="gotovideo()">
+          do it. click me. &raquo;
+        </button>
+      </div>
+    </section>
+    
+
+    <script>
+      function gotovideo() {
+        window.location.href =
+          "https://youtu.be/E45fogGN_Y8?si=xBtnB0qifJ-RBWy1";
+      }
+    </script>
+  </body>
+  <footer>Contact Info: CCarlyCo3@outlook.com</footer>
+</html>
